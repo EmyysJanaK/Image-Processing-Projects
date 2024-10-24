@@ -9,7 +9,7 @@ img = cv2.imread('210598B_SrcImage.jpg')
 gray_img = np.round(0.114 * img[:, :, 0] + 0.587 * img[:, :, 1] + 0.299 * img[:, :, 2]).astype(np.uint8)
 
 # 3x2 subplot
-fig, axs = plt.subplots(2, 3, figsize=(15, 10))
+fig, axs = plt.subplots(2, 3, figsize=(15, 10)) #ffff
 
 # Point Operations
 
